@@ -1,3 +1,23 @@
+:root {
+  /* color */
+  --color-primary: #06d6a0;
+  --color-primary-dark: #613a3a;
+  --color-secondary: #0b3954;
+}
+
 .container {
   max-width: 960px;
+}
+
+h1 {
+  color: var(--color-secondary);
+}
+
+p {
+  color: var(--color-primary);
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  border-color: var(--color-secondary);
 }
